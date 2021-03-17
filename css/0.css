@@ -200,11 +200,10 @@ img.logo{
   width:100%;
   margin-left: auto; 
   margin-right: auto; 
-  filter: grayscale(100%);
+  /* filter: grayscale(100%); */
   transition-duration: 1s;
   /* opacity: 0.1; */
   /* margin-top: 40%; */
-  
 }
 
 .photo:hover{
