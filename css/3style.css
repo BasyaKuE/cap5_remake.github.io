@@ -8,8 +8,6 @@ body {
   /* font-family: 'Ropa Sans', sans-serif; */
   font-family: 'helvetica', sans-serif;
   display: block;
-  
-
   /* height: 100%; */
   /* width:100%; */
   /* overflow: auto; */
@@ -109,7 +107,7 @@ header{
  margin-left:auto; 
  /* height: 60%; */
  /* background: rebeccapurple; */
- width: 30%;  
+ width: 60%;  
 
 }
 .background{
