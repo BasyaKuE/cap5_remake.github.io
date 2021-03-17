@@ -101,7 +101,7 @@ header{
   background:transparent;
   color:black;
   text-align: center;
-  margin:  0 0 0 auto;
+  margin: auto;
   /* 上下右左 */
   height: 30px;
   width: 50px;
