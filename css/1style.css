@@ -128,7 +128,6 @@ img.logo{
 }
 
 .tate{
-  /* position: absolute; */
   position:  absolute;
   top: 50px;  
   right:40px;
@@ -136,8 +135,6 @@ img.logo{
   transition-property:all;
   transition-duration: 2s; 
   transition-timing-function :ease-out;
-  /* margin-right: auto;
-  margin-left: auto; */
   opacity: 0.8;
   color: rgb(75, 171, 255);
   writing-mode: vertical-lr;
