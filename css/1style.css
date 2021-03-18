@@ -343,15 +343,22 @@ footer{
     margin-left: auto; 
     margin-right: auto; 
     filter: none;
-    transition-duration: 1s;
+    transition-property:all;
+    /* transition-duration: 1s; */
+    /* transition-timing-function: cubic-bezier(.29, 1.01, 1, -0.68); */
+    /* transition-timing-function: cubic-bezier(0.19, 1, 0.22, 1); */
+    transition-timing-function:ease-out;
+    transition-delay: 0.6s 
   }
 
   
-  /* .photo:hover{
-    filter: grayscale(0);
-    opacity: 1;
-    width: 120%;
-  } */
+  .photo:hover{
+    /* filter: grayscale(0); */
+    /* transform: rotate(180deg); */
+    transform:translateX(80px) translateY(0px) rotate(0deg);
+    /* opacity: 1; */
+    /* width: 120%; */
+  }
 
   .tate{
     display: none;
