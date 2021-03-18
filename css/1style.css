@@ -165,30 +165,31 @@ img.logo{
 
 .rane1{
   /* background: red; */
-  width: 25%;
-  margin-right: 0;
-  margin-left: 0;
+  width: 20%;
+  margin-right: 4%;
+  margin-left: 4%;
 
 }
 .rane2{
   /* background: blue; */
-  width: 25%;
-  margin-right: 0;
+  width: 20%;
+  margin-right: 4%;
   margin-left: 0;
 }
 .rane3{
   /* background: blue; */
-  width: 25%;
-  margin-right: 0;
+  width: 20%;
+  margin-right: 4%;
   margin-left: 0;
 }
 .rane4{
-  width: 25%;
-  margin-right: 0;
+  width: 20%;
+  margin-right: 4%;
   margin-left: 0;
 }
 .photo{
-  margin-top: 0;
+  margin-top: 60%;
+  margin-bottom: 60%;
   /* width: 800px; */
   width:100%;
   margin-left: auto; 
