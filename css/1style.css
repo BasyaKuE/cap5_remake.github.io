@@ -85,7 +85,6 @@ header{
 }
 .menu-item {
   list-style: none;
-
   background: transparent;
   margin-right: 20px;
   margin-top: 10px;
@@ -276,6 +275,7 @@ footer{
   }
    
   .menu-item{
+    font-size: 20px;
     list-style: none;
     background: transparent;
     /* margin-right: 0; */
