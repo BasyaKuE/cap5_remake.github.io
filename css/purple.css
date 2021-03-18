@@ -106,18 +106,22 @@ header a {
   /* 768pxまでの幅の場合に適応される */
 
   body{
-    min-width: initial;
+    /* min-width: initial; */
     margin-top: 6%;
   }
   #all{
     display: inline;
+    margin-top: 7%;
+   
   }
 
   .rane1{
     /* background: red; */
     width: 80%;
+    margin-top:10%;
     margin-right: 10%;
     margin-left: 10%;
+    margin-bottom:60%;
   }
 
 
