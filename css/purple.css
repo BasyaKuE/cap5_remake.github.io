@@ -102,7 +102,7 @@ header a {
 }
 
 /*-----  SP  ---- */
-@media screen and (max-width: 760px) {
+@media screen and (max-width: 780px) {
   /* 768pxまでの幅の場合に適応される */
 
   body{
