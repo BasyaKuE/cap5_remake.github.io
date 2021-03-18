@@ -159,7 +159,6 @@ img.logo{
 
 #all{
   margin-top: 50px;
-
   display: flex;
   /* background: blueviolet; */
   object-fit: cover; 
@@ -315,25 +314,21 @@ footer{
     margin-top: 50px;
     display: block;
   }
+  
   .photo{
     margin-top: 0;
-    /* width: 800px; */
     width:100%;
     margin-left: auto; 
     margin-right: auto; 
-    filter: grayscale(100%);
+    filter: none;
     transition-duration: 1s;
-    /* opacity: 0.1; */
-    /* margin-top: 40%; */
-    
   }
   
-  .photo:hover{
+  /* .photo:hover{
     filter: grayscale(0);
     opacity: 1;
     width: 120%;
-
-  }
+  } */
 
   .tate{
     display: none;
@@ -341,20 +336,20 @@ footer{
     
   .rane1{
     /* background: red; */
-    width: 35%;
+    width: 50%;
     margin-left: 25%;
   }
   .rane2{
     /* background: red; */
-    width: 35%;
+    width: 50%;
     margin-left: 25%;
   }.rane3{
     /* background: red; */
-    width: 35%;
+    width: 50%;
     margin-left: 25%;
   }.rane4{
     /* background: red; */
-    width: 35%;
+    width: 50%;
     margin-left: 25%;
   }
 }
