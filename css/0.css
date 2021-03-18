@@ -251,8 +251,8 @@ footer{
      width: 100%; 
      padding: 5px;
      height: auto;
-     /* background:black; */
-     background: rgb(236, 236, 236);
+     background:black;
+     /* background: rgb(236, 236, 236); */
      z-index: 2;
      opacity: 0.9;
     /* justify-content: center; */

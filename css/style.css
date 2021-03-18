@@ -229,8 +229,8 @@ footer{
      left:0;
      width: 100%; 
      padding: 5px;
-     /* background:transparent; */
-     background: rgb(236, 236, 236);
+     background:black;
+     /* background: rgb(236, 236, 236); */
      height: auto;
      z-index: 2;
      padding-bottom:0 !important;
