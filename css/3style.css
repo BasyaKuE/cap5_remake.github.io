@@ -154,7 +154,15 @@ header{
   transition-duration: 1s;
   /* opacity: 0.1; */
   /* margin-top: 40%; */
-  
+}
+
+.photolast{
+  margin-left: 35%;
+  margin-right: 35%;
+  margin-top: 10%;
+  margin-bottom:30% ;
+  width: 30%;
+
 }
 
 /* .photo:hover{

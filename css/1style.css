@@ -352,13 +352,13 @@ footer{
   }
 
   
-  .photo:hover{
-    /* filter: grayscale(0); */
-    /* transform: rotate(180deg); */
+  /* .photo:hover{
+    filter: grayscale(0);
+    transform: rotate(180deg);
     transform:translateX(80px) translateY(0px) rotate(0deg);
-    /* opacity: 1; */
-    /* width: 120%; */
-  }
+    opacity: 1;
+    width: 120%;
+  } */
 
   .tate{
     display: none;
