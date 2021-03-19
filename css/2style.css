@@ -171,22 +171,10 @@ a.concept{
     padding-bottom:0 !important;
    }
 
-
+   .items{
+    min-width: 100px;
+ }
    
-   #nav1{
-     margin-right: 0;
-     /* margin-left: auto; */
-     /* background: green; */
-     background: transparent;
-     color:white;
-   }
-   .cap5 {
-    font-size: 30px;
-    /* margin-left:10%; */
-    /* background:red;   */
-    /* color:white!important; */
-    
-  }
 
   .menu-item{
     list-style: none;

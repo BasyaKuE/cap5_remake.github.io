@@ -213,7 +213,9 @@ header{
     /* color:white!important; */
   }
 
-
+  .items{
+    min-width: 100px;
+ }
   .menu-item{
     list-style: none;
     background: transparent;

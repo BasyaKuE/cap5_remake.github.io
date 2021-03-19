@@ -254,21 +254,24 @@ footer{
    
    #nav1{
      margin-right: 0;
-     /* margin-left: auto; */
-     /* background: green; */
-     background: transparent;
+     margin-left: 0;
+     padding-left:0;
+     background: green;
+     /* background: transparent; */
      color:white;
    }
    .cap5 {
-   
     font-size: 30px;
     /* margin-left:10%; */
     /* background:red;   */
     /* color:white!important; */
   }
+  .items{
+    min-width: 100px;
+ }
   .menu-item{
     list-style: none;
-    background: transparent;
+    background: red;
     /* margin-right: 0; */
     /* padding-left:0 ; */
     text-align: right;
