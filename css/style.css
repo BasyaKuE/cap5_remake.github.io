@@ -283,6 +283,9 @@ footer{
   .insta{
     display:none;
    }
+  .youtube{
+    display:none;
+  }
 
   img.logo{
     position: absolute;
