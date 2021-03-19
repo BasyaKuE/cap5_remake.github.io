@@ -77,12 +77,8 @@ header{
   text-decoration: none;
 }
 
-.nav{
-  /* padding: 10px; */
-  min-width: 400px;
-  /* margin-left: 30%; */
-  /* background-color: red; */
-  
+.items{
+   min-width: 300px;
 }
 .menu-item {
   list-style: none;
@@ -93,34 +89,25 @@ header{
 }
 
 .insta{
-  background:transparent;
+  margin-top: 5px;
+  /* background:red; */
   color:black;
   text-align: center;
-  margin: auto;
-  /* 上下右左 */
   height: 30px;
   width: 50px;
   min-width: 50px;
   filter: invert();
 }
-/* img.main{
-  width: 100%;
-  margin-top: 300px;
-  min-width: 900px; 
-  max-height: 800px;
-  height: 100%;
-} */
-/* img.logo{
-  position: absolute;
-  width: 20%;
-  top: 30%;
-  height: 20%;
-  margin-right:40%;
-  margin-left:40%;
-  background-color: red;
+.youtube{
+  margin-top: 5px;
+  /* background:blue; */
+  color:black;
+  text-align: center;
+  height: 30px;
+  width: 40px;
+  min-width: 30px;
   filter: invert();
-
-} */
+}
 
 .tate{
   position:  absolute;
@@ -252,7 +239,6 @@ footer{
   display: inline;
   width: 100%;
   /* background: blue; */
-  
 }
 
 
@@ -319,6 +305,11 @@ footer{
    display:none;
   
   }
+  .youtube{
+    display:none;
+   
+   }
+
   
 
  img.main{

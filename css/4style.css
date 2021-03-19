@@ -8,8 +8,6 @@ body {
   /* font-family: 'Ropa Sans', sans-serif; */
   font-family: 'helvetica', sans-serif;
   display: block;
-  
-
   /* height: 100%; */
   /* width:100%; */
   /* overflow: auto; */
@@ -24,39 +22,28 @@ body {
     /* margin-right:20%;
     margin-left:20%; */
     background-color:  white;
-
+  
 } 
 
 
 
 header{
-
   display:flex !important;
   position:fixed;
-   top:0;
-   left:0;
-   width: 100%; 
-   height: 50px;
-   padding: 5px;
-   background: black;
-   /* background: transparent; */
-   z-index: 2;
-  /* justify-content: center; */
-   /* align-items: center; */
-   /* ?????? */
-   /* position: relative; */
-   /* top: 0px; */
-   /* background:rgb(237, 59, 10,10); */
-   /* z-index: 2; */ 
-   /* 重なりの順序 */
-   /* box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.25); */
- }
+  top:0;
+  left:0;
+  width: 100%; 
+  height: 50px;
+  padding: 5px;
+  background: black;
+  z-index: 2;
+}
  
  
  
  
  
- .cap5 {
+.cap5 {
    /* top:0; */
    font-size: 30px;
    margin-right:20%;
@@ -66,39 +53,130 @@ header{
    /* text-align: center; */
    /* background:transparent;   */
    min-width: 100px;
- 
- }
- .nav{
-   padding: 10px;
-   min-width: 300px;
-   /* background-color: red; */
- }
- .menu-item {
-   list-style: none;
-   background: transparent;
-   margin-right: 20px;
-   display: inline;
-   
- }
- 
- 
- 
- .insta{
-   background:transparent;
-   color:black;
-   text-align: center;
-   /* width: 50%; */
-   margin: auto;
-   /* 上下右左 */
-   height: 30px;
-   width: 50px;
-   min-width: 50px;
-   filter: invert();
- 
- }
-   
+  }
+
+
+
+.items{
+  min-width: 300px;
+}
+.menu-item {
+ list-style: none;
+ /* background: red; */
+ margin-right: 20px;
+ margin-top: 10px;
+ display: inline;
+}
+
+.insta{
+ margin-top: 5px;
+ /* background:red; */
+ color:black;
+ text-align: center;
+ height: 30px;
+ width: 50px;
+ min-width: 50px;
+ filter: invert();
+}
+.youtube{
+ margin-top: 5px;
+ /* background:blue; */
+ color:black;
+ text-align: center;
+ height: 30px;
+ width: 40px;
+ min-width: 30px;
+ filter: invert();
+}
+
+
 
   
+
+
+.member{
+  margin-top:150px;
+ margin-bottom: 100px;
+ margin-right:auto;
+ margin-left:auto; 
+ /* height: 60%; */
+ /* background: rebeccapurple; */
+ width: 60%;  
+
+}
+.background{
+  margin-top: 0;
+ margin-bottom: 0;
+ margin-right:auto;
+ margin-left:auto; 
+ /* height: 60%; */
+ /* background: rebeccapurple; */
+ width: 30%;  
+}
+
+#all{
+  margin-top: 5%;
+  display: flex;
+  /* background: blueviolet; */
+  /* object-fit: cover;  */
+}
+
+
+.rane1{
+  /* background: red; */
+  width: 25%;
+  margin-right: 0;
+  margin-left: 0;
+  margin-top: 0;
+}
+
+.rane2{
+  /* background: red; */
+  width: 25%;
+  margin-right: 0;
+  margin-left: 0;
+  margin-top: 0;
+}
+.rane3{
+  /* background: red; */
+  width: 25%;
+  margin-right: 0;
+  margin-left: 0;
+  margin-top: 0;
+}
+.rane4{
+  /* background: red; */
+  width: 25%;
+  margin-right: 0;
+  margin-left: 0;
+  margin-top: 0;
+}
+.photo{
+  margin-top: 0;
+  /* width: 800px; */
+  width:100%;
+  margin-left: auto; 
+  margin-right: auto; 
+  filter: grayscale(100%);
+  transition-duration: 1s;
+  /* opacity: 0.1; */
+  /* margin-top: 40%; */
+}
+
+.photolast{
+  margin-left: 35%;
+  margin-right: 35%;
+  margin-top: 10%;
+  margin-bottom:30% ;
+  width: 30%;
+
+}
+
+/* .photo:hover{
+  filter: grayscale(0);
+  opacity: 1;
+
+} */
 
 
 /*-----  SP  ---- */
@@ -109,25 +187,16 @@ header{
   header{
     display: flex!important;;
     position:fixed;
-     top:0;
-     left:0;
-     width: 100%; 
-     padding: 5px;
-     background:black;
-     /* background: rgb(236, 236, 236); */
-     height: auto;
-     z-index: 2;
-     padding-bottom:0 !important;
-    /* justify-content: center; */
-     /* align-items: center; */
-     /* ?????? */
-     /* position: relative; */
-     /* top: 0px; */
-     /* background:rgb(237, 59, 10,10); */
-     /* z-index: 2; */ 
-     /* 重なりの順序 */
-     /* box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.25); */
-   }
+    top:0;
+    left:0;
+    width: 100%; 
+    padding: 5px;
+    background:black;
+    /* background: rgb(236, 236, 236); */
+    height: auto;
+    z-index: 2;
+    padding-bottom:0 !important;
+  }
    
    #nav1{
      margin-right: 0;
@@ -138,12 +207,11 @@ header{
    }
    .cap5 {
     font-size: 30px;
+    
     /* margin-left:10%; */
     /* background:red;   */
     /* color:white!important; */
-    
   }
-   
 
 
   .menu-item{
@@ -163,7 +231,11 @@ header{
   .insta{
     display:none;
    }
+   .youtube{
+    display:none;
+   }
 
 
 
+ }
 
