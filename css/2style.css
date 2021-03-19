@@ -127,7 +127,6 @@ a.concept{
   /* background: rebeccapurple; */
   width: 30%;  
   text-align: center;
-
 }
 
 .photo{
@@ -198,7 +197,6 @@ a.concept{
     /* margin-left: 50%; */
     /* justify-content: center; */
     width: 100%;
-   
   }
   
 
@@ -217,7 +215,7 @@ a.concept{
     margin-left:auto; 
     /* height: 60%; */
     /* background: rebeccapurple; */
-    width: 80%;  
+    width: 100%;  
     text-align: center;
   
   }
