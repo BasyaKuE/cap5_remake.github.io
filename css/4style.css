@@ -207,28 +207,30 @@ header{
    }
    .cap5 {
     font-size: 30px;
-    
-    /* margin-left:10%; */
-    /* background:red;   */
-    /* color:white!important; */
+    margin-right: 0;
   }
 
   .items{
     min-width: 100px;
  }
-  .menu-item{
-    list-style: none;
-    background: transparent;
-    /* margin-right: 0; */
-    /* padding-left:0 ; */
-    text-align: right;
-    display: block;
-    margin-top: 20px;
-  }
+ .menu-item{
+  list-style: none;
+  /* background: red; */
+  /* margin-right: 0; */
+  /* padding-left:0 ; */
+  text-align: right;
+  display: block;
+  margin-top: 50px;
+  font-size: 30px;
+}
 
   .navbar-toggler{
     filter:invert();
   }
+  .navbar{
+    margin-bottom: 0!important;
+  }
+  /* 先ほどここ追加した。 */
 
   .insta{
     display:none;
