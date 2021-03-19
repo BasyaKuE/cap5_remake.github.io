@@ -106,11 +106,7 @@ img.logo{
   min-width: 100px;
   filter: invert();
 }
-.nav{
-  padding: 10px;
-  min-width: 300px;
-  /* background-color: red; */
-}
+
 .menu-item {
   list-style: none;
   background: transparent;
@@ -120,19 +116,30 @@ img.logo{
 
 
 
-.insta{
-  background:transparent;
-  color:black;
-  text-align: center;
-  /* width: 50%; */
-  margin: auto;
-  /* 上下右左 */
-  height: 30px;
-  width: 50px;
-  min-width: 50px;
-  filter: invert();
+.items{
+  min-width: 300px;
 }
 
+.insta{
+ margin-top: 5px;
+ /* background:red; */
+ color:black;
+ text-align: center;
+ height: 30px;
+ width: 50px;
+ min-width: 50px;
+ filter: invert();
+}
+.youtube{
+ margin-top: 5px;
+ /* background:blue; */
+ color:black;
+ text-align: center;
+ height: 30px;
+ width: 40px;
+ min-width: 30px;
+ filter: invert();
+}
 .tate{
   /* position: absolute; */
   position:  absolute;

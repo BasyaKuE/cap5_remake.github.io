@@ -184,7 +184,7 @@ header{
   margin-right: auto; 
   filter: grayscale(100%);
   transition-duration: 1s;
-  box-shadow: 0 10px 25px 0 rgba(0, 0, 0, .2);
+  box-shadow: 0 10px 25px 0 rgba(0, 0, 0, .4);
   /* box-shadow: inset 0 10px 25px 0 rgba(255, 255, 255, .5); */
   /* opacity: 0.1; */
   /* margin-top: 40%; */
@@ -307,7 +307,7 @@ footer{
   }
   .youtube{
     display:none;
-   
+  
    }
 
   
