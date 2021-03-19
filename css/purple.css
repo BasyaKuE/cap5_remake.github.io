@@ -52,14 +52,12 @@ header a {
   color:rgb(2, 99, 164);
 }
 
-
+/*
 .member{
   margin-top: 0;
  margin-bottom: 0;
  margin-right:auto;
  margin-left:auto; 
- /* height: 60%; */
- /* background: rebeccapurple; */
  width: 30%;  
 }
 .background{
@@ -67,10 +65,9 @@ header a {
  margin-bottom: 0;
  margin-right:auto;
  margin-left:auto; 
- /* height: 60%; */
- /* background: rebeccapurple; */
  width: 30%;  
 }
+*/
 
 #all{
   margin-top: 3%;
@@ -112,7 +109,6 @@ header a {
   #all{
     display: inline;
     margin-top: 7%;
-   
   }
 
   .rane1{
@@ -120,7 +116,7 @@ header a {
     width: 80%;
     margin-top:10%;
     margin-right: 10%;
-    margin-left: 10%;
+    margin-left: 10%!important;
     margin-bottom:60%;
   }
 
