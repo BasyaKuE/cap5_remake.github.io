@@ -114,16 +114,12 @@ header{
  filter: invert();
 }
 
-
-
-
-  
 a.concept{
   font-size: 10px;
 }
 
 .concept{
-   margin-top: 10%;
+   /* margin-top: 10%; */
   margin-bottom: 0;
   margin-right:auto;
   margin-left:auto; 
@@ -133,16 +129,7 @@ a.concept{
   text-align: center;
 
 }
-.skill{
-  margin-top: 5%;
- margin-bottom: 0;
- margin-right:25%; 
- margin-left:25%;
- /* height: 60%; */
- /* background: rebeccapurple; */
- /* width: 30%;   */
- /* display: flex; */
-}
+
 .photo{
   /* margin-right: auto; */
   /* margin-left: 50%; */
@@ -206,28 +193,15 @@ a.concept{
    .youtube{
     display:none;
    }
-
-  img.logo{
-    position: absolute;
-    width: 20%;
-    top: 30%;
-    /* height: 20%; */
-    margin-right:40%;
-    margin-left:40%;
-    /* background-color: red; */
-    filter: invert();
+   .photo{
+    /* margin-right: auto; */
+    /* margin-left: 50%; */
+    /* justify-content: center; */
+    width: 100%;
+   
   }
- img.main{
-  position: absolute;
-  width: 90%;
-  top: 30%;
+  
 
-  /* height: 20%; */
-  margin-right:5%;
-  margin-left:5%;
-  /* background-color: red; */
-  /* filter: invert(); */
- }
 
   body{
     min-width: initial;
