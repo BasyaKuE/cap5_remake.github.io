@@ -71,9 +71,10 @@ body {
    
   
   img.main{
-    width: 130%;
-    /* height: 100%; */
-    margin-top:2%;
+    width: 150%;
+    height: 90%;
+    margin-top:50px;
+    /* margin-bottom: 5%; */
     margin-bottom: auto;
     background-size:cover ;
   
@@ -212,18 +213,17 @@ body {
      /* background: transparent; */
      z-index: 2;
    }
-  .nav2{
+  /* .nav2{
     padding: 10px;
     margin-left:auto;
-  }
-  .menu-item2 {
+  } */
+  /* .menu-item2 {
     list-style: none;
-    /* background: black; */
+    background: black;
     display: inline;
     width: 100%;
-    /* background: blue; */
-    
-  }
+    background: blue;
+  } */
   
   /*-----  SP  ---- */
   @media screen and (max-width: 760px) {
@@ -306,17 +306,18 @@ body {
       filter: invert();
     }
    img.main{
-    position: absolute;
+    /* position: absolute;
     width: 90%;
     top: 30%;
-  
-    /* height: 20%; */
     margin-right:5%;
-    margin-left:5%;
-    /* background-color: red; */
-    /* filter: invert(); */
+    margin-left:5%; */
+    display: none;
   
    }
+   /* .long{
+    margin-right:5%;
+    margin-left:5%; 
+   } */
     
   
      
