@@ -127,43 +127,8 @@ header{
  width: 30%;  
 }
 
-#all{
-  margin-top: 5%;
-  display: flex;
-  /* background: blueviolet; */
-  /* object-fit: cover;  */
-}
 
 
-.rane1{
-  /* background: red; */
-  width: 25%;
-  margin-right: 0;
-  margin-left: 0;
-  margin-top: 0;
-}
-
-.rane2{
-  /* background: red; */
-  width: 25%;
-  margin-right: 0;
-  margin-left: 0;
-  margin-top: 0;
-}
-.rane3{
-  /* background: red; */
-  width: 25%;
-  margin-right: 0;
-  margin-left: 0;
-  margin-top: 0;
-}
-.rane4{
-  /* background: red; */
-  width: 25%;
-  margin-right: 0;
-  margin-left: 0;
-  margin-top: 0;
-}
 .photo{
   margin-top: 0;
   /* width: 800px; */

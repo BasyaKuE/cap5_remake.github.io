@@ -120,13 +120,13 @@ a.concept{
 }
 
 .concept{
-   /* margin-top: 10%; */
+  margin-top: 10%;
   margin-bottom: 0;
   margin-right:auto;
   margin-left:auto; 
   /* height: 60%; */
   /* background: rebeccapurple; */
-  width: 30%;  
+  width: 60%;  
   text-align: center;
 }
 
@@ -217,7 +217,7 @@ a.concept{
     margin-left:auto; 
     /* height: 60%; */
     /* background: rebeccapurple; */
-    width: 100%;  
+    width: 80%;  
     text-align: center;
   
   }
