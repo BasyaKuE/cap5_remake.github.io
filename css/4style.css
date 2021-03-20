@@ -104,7 +104,7 @@ header{
   /* font-family: a-otf-midashi-go-mb31-pr6n, sans-serif; */
   font-style: normal;
   font-weight: 600;
-  margin-top:150px;
+  margin-top:100px;
  margin-bottom: 100px;
  margin-right:auto;
  margin-left:auto; 
@@ -217,7 +217,7 @@ h2.text1{
   #all{
    
     display: flex;
-    margin-top: 50px;
+    margin-top: 20px;
   
   } 
    #nav1{
@@ -239,11 +239,7 @@ h2.text1{
   .a{
     font-size: 1px;
   }
-  .member{
-    margin-top: 100px;
-    width: 75%;
-    /* margin-bottom: ; */
-  }
+ 
   .cap5 {
     font-size: 30px;
     margin-right: 0;
