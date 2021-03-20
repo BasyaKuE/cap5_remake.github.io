@@ -5,8 +5,13 @@ body {
   align-items: center;
   justify-content: center;
   /* background: linear-gradient(to bottom, white, black); */
-  font-family: 'Ropa Sans', sans-serif;
+  /* font-family: 'gil sans','helvetica' sans-serif; */
+  font-family: a-otf-midashi-go-mb31-pr6n, sans-serif;
+  font-style: normal;
+  font-weight: 300;
   /* font-family: 'helvetica', sans-serif; */
+  
+  /* font-family: cursive; */
   display: block;
   
 

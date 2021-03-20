@@ -6,8 +6,11 @@ body {
   justify-content: center;
   /* background: linear-gradient(to bottom, white, black); */
   /* font-family: 'Ropa Sans', sans-serif; */
+     font-family: Gill Sans Extrabold, sans-serif;
+     /* font-family: Times, Times New Roman, Georgia, serif; */
+
   /* font-family: ' a-otf-midashi-go-mb31-pr6n ',  */
- 
+
   display: block;
   /* height: 100%; */
   /* width:100%; */
@@ -47,6 +50,7 @@ header{
  
 .cap5 {
    /* top:0; */
+
    font-size: 30px;
    margin-right:20%;
    margin-left:10%;
@@ -97,6 +101,9 @@ header{
 
 
 .member{
+  /* font-family: a-otf-midashi-go-mb31-pr6n, sans-serif; */
+  font-style: normal;
+  font-weight: 600;
   margin-top:150px;
  margin-bottom: 100px;
  margin-right:auto;
