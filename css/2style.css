@@ -131,13 +131,20 @@ a.concept{
 }
 
 .photo{
-  /* margin-right: auto; */
-  /* margin-left: 50%; */
-  /* justify-content: center; */
-  width: 100%;
- 
-}
+  margin-right: 5%;
+  margin-left: 5%;
+  margin-top: 10%;
+  width: 80%;
 
+}
+.photolast{
+  margin-left: 35%;
+  margin-right: 35%;
+  margin-top: 10%;
+  margin-bottom:30% ;
+  width: 30%;
+
+}
 
 /*-----  SP  ---- */
 @media screen and (max-width: 760px) {
@@ -194,11 +201,12 @@ a.concept{
    .youtube{
     display:none;
    }
+
    .photo{
-    /* margin-right: auto; */
-    /* margin-left: 50%; */
+    margin-right: 5%;
+    margin-left: 5%;
     /* justify-content: center; */
-    width: 100%;
+    width: 80%;
   }
   
 
@@ -213,13 +221,12 @@ a.concept{
   .concept{
     margin-top: 150px;
     margin-bottom: 0;
-    margin-right:auto;
-    margin-left:auto; 
+    /* margin-right:auto;
+    margin-left:auto;  */
     /* height: 60%; */
     /* background: rebeccapurple; */
     width: 80%;  
     text-align: center;
-  
   }
   #all{
 
