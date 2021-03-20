@@ -119,7 +119,12 @@ h2.text1{
 
 .text2{
   text-align: center;
+
 }
+a.text2{
+  margin-top: 2px;
+}
+
 
 .background{
   margin-top: 0;
