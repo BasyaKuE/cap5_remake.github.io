@@ -72,11 +72,12 @@ body {
   
   img.main{
     width: 150%;
-    height: 90%;
+    height: 100%;
     margin-top:50px;
     /* margin-bottom: 5%; */
     margin-bottom: auto;
     background-size:cover ;
+    /* こっこ孤っっっっっっっっっっっっっっっっっっっっっっっっっっっっっっっっっっっっっっっっっっっっっっk */
   
     /* min-width: 900px; */
     /* max-height: 800px; */
@@ -85,11 +86,11 @@ body {
   
   img.logo{
     position: absolute;
-    width: 20%;
-    top: 30%;
+    width: 40%;
+    top: 25%;
     /* height: 20%; */
-    margin-right:40%;
-    margin-left:40%;
+    margin-right:30%;
+    margin-left:30%;
     /* background-color: red; */
     filter: invert();
   
@@ -280,6 +281,10 @@ body {
     font-size: 30px;
   }
   
+    
+
+  
+  
     .navbar-toggler{
       filter:invert();
     }
@@ -297,11 +302,11 @@ body {
   
     img.logo{
       position: absolute;
-      width: 20%;
-      top: 30%;
+      width: 40%;
+      top: 20%;
       /* height: 20%; */
-      margin-right:40%;
-      margin-left:40%;
+      margin-right:30%;
+      margin-left:30%;
       /* background-color: red; */
       filter: invert();
     }
