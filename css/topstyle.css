@@ -264,6 +264,7 @@ body {
        color:white;
      }
      .cap5 {
+       
       font-size: 30px;
       margin-right: 0;
     }
@@ -316,13 +317,13 @@ body {
     top: 30%;
     margin-right:5%;
     margin-left:5%; */
+ 
     display: none;
   
    }
-   /* .long{
-    margin-right:5%;
-    margin-left:5%; 
-   } */
+   .long{
+    margin-top: 55px;
+   }
     
   
      

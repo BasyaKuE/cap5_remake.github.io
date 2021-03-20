@@ -100,7 +100,7 @@ header{
   
 
 
-.member{
+.text1{
   /* font-family: a-otf-midashi-go-mb31-pr6n, sans-serif; */
   font-style: normal;
   font-weight: 600;
@@ -111,8 +111,12 @@ header{
  /* height: 60%; */
  /* background: rebeccapurple; */
  width: 60%;  
-
 }
+
+.text2{
+  text-align: center;
+}
+
 .background{
   margin-top: 0;
  margin-bottom: 0;
@@ -265,6 +269,9 @@ header{
    .youtube{
     display:none;
    }
+   .text1{
+   width: 80%;  
+  }
 
 
 
