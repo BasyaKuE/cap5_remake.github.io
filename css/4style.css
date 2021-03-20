@@ -212,9 +212,14 @@ h2.text1{
     height: auto;
     z-index: 2;
     padding-bottom:0 !important;
-    opacity: 0.8;
+    /* opacity: 0.8; */
   }
+  #all{
    
+    display: flex;
+    margin-top: 50px;
+  
+  } 
    #nav1{
      margin-right: 0;
      /* margin-left: auto; */
