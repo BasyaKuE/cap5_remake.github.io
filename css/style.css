@@ -305,7 +305,7 @@ footer{
     /* background-color: red; */
     filter: invert();
   }
- img.main{
+ video.main{
   position: absolute;
   width: 90%;
   top: 30%;
