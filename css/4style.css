@@ -108,6 +108,8 @@ header{
  margin-bottom: 100px;
  margin-right:auto;
  margin-left:auto; 
+ text-decoration: none;
+ color: black;
  /* height: 60%; */
  /* background: rebeccapurple; */
  width: 60%;  
