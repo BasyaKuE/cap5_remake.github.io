@@ -273,15 +273,17 @@ body {
    }
    .menu-item{
     list-style: none;
-    /* background: red; */
-    /* margin-right: 0; */
-    /* padding-left:0 ; */
+    /* background: white; */
+  
+    /* box-shadow: inset 10px 10px 25px 0 rgba(255, 255, 255, .2); */
+    /* なんでなんでなんでなんでなんでなんでなんでなんでなんでなんでなんでなんでなんで反映されない */
+    padding-top:10px ;
+    padding-bottom:10px ;
     text-align: right;
     display: block;
     margin-top: 50px;
-    font-size: 30px;
+    font-size: 20px;
   }
-  
     
 
   

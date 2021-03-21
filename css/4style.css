@@ -249,16 +249,14 @@ h2.text1{
   .items{
     min-width: 100px;
  }
-
  .menu-item{
   list-style: none;
-  /* background: red; */
-  /* margin-right: 0; */
-  /* padding-left:0 ; */
+  padding-top:10px ;
+  padding-bottom:10px ;
   text-align: right;
   display: block;
   margin-top: 50px;
-  font-size: 30px;
+  font-size: 20px;
 }
 
   .navbar-toggler{
