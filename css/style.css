@@ -79,13 +79,15 @@ header{
 
 video.main{
   position: absolute;
+  width: 100%;
 
   /* width: 100vh; */
-  height: 100vh;
+  /* height: 100vh; */
   /* background: url(./sapmle.png) no-repeat center center/cover; */
   /* background-size: cover; */
   margin-left: auto;
   margin-right: auto;
+  background-color: black;
 }
 video {
   min-width: 100%;
@@ -319,11 +321,6 @@ footer{
   background-size: cover;
   transform: rotate(90deg ); 
   
-}
-video {
-  min-width: 100%;
-  min-height: 100vh;
-  z-index: 1;
 }
 
 
