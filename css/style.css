@@ -86,12 +86,9 @@ img.logo{
   position: absolute;
   width: 20%;
   top: 30%;
-  /* height: 20%; */
   margin-right:40%;
   margin-left:40%;
-  /* background-color: red; */
   filter: invert();
-
 }
 
 .cap5 {
@@ -297,25 +294,27 @@ footer{
     position: absolute;
     width: 20%;
     top: 30%;
-    /* height: 20%; */
     margin-right:40%;
     margin-left:40%;
     /* background-color: red; */
     filter: invert();
   }
+
  video.main{
-  position: absolute;
-  width: 90%;
-  top: 30%;
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  /* background: url(./sapmle.png) no-repeat center center/cover; */
+  background-size: cover;
+  transform: rotate(90deg ); 
+}
+video {
+  min-width: 100%;
+  min-height: 100vh;
+  z-index: 1;
+}
 
-  /* height: 20%; */
-  margin-right:5%;
-  margin-left:5%;
-  /* background-color: red; */
-  /* filter: invert(); */
 
- }
-  
 
    
   body{
