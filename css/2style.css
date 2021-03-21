@@ -115,11 +115,12 @@ header{
  filter: invert();
 }
 
-a.concept{
-  font-size: 10px;
-}
 
-.concept{
+.text1{
+  font-family: futura-pt, sans-serif;
+  font-weight: 400;
+  font-style: bold;
+
   margin-top: 10%;
   margin-bottom: 0;
   margin-right:auto;
@@ -217,10 +218,11 @@ a.concept{
     min-width: initial;
     margin-top: 0;
   }
-  a.concept{
-    font-size: 2px;
-  }
-  .concept{
+  
+  .text1{
+
+
+    
     margin-top: 100px;
     margin-bottom: 0;
     /* margin-right:auto;

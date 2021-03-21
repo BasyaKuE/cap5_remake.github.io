@@ -101,9 +101,12 @@ header{
 
 
 .text1{
-  /* font-family: a-otf-midashi-go-mb31-pr6n, sans-serif; */
-  font-style: normal;
-  font-weight: 600;
+  font-family: futura-pt, sans-serif;
+  font-weight: 400;
+  font-style: bold;
+
+
+
   margin-top:100px;
  margin-bottom: 100px;
  margin-right:auto;
