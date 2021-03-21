@@ -97,9 +97,12 @@ header{
 
 
 .text1{
-  font-family: futura-pt, sans-serif;
-  font-weight: 400;
-  font-style: bold;
+  font-family: futura-pt,a-otf-midashi-go-mb31-pr6n, sans-serif;
+  font-weight: 600;
+  font-style: normal;
+
+
+
   
   margin-top:100px;
  margin-bottom: 100px;
