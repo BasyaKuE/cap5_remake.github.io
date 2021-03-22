@@ -315,21 +315,18 @@ footer{
 
  video.main{
   position: relative;
-  width: 100vh;
+  width: 100%;
   height: 100%;
   /* background: url(./sapmle.png) no-repeat center center/cover; */
   background-size: cover;
   transform: rotate(90deg ); 
   
 }
-
-
-
    
   body{
     min-width: initial;
     margin-top: 0;
-
+    background-color: black;
   }
 
   #all{
