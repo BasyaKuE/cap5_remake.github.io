@@ -79,7 +79,7 @@ header{
  height: 30px;
  width: 50px;
  min-width: 50px;
- filter: invert();
+ /* filter: invert(); */
 }
 .youtube{
  margin-top: 5px;
@@ -89,7 +89,7 @@ header{
  height: 30px;
  width: 40px;
  min-width: 30px;
- filter: invert();
+ /* filter: invert(); */
 }
 
 
@@ -183,8 +183,14 @@ h2.text1{
   margin-right: 35%;
   margin-top: 10%;
   margin-bottom:10% ;
+  width: 30%;s
+}
+.photolast2{
+  margin-left: 35%;
+  margin-right: 35%;
+  margin-top: 10%;
+  margin-bottom:10% ;
   width: 30%;
-
 }
 
 /* .photo:hover{
