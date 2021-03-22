@@ -67,6 +67,7 @@ header{
    /* z-index: 2; */ 
    /* 重なりの順序 */
    /* box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.25); */
+   background-color: black!important;
  }
 
 div.bb {
@@ -136,14 +137,14 @@ img.logo{
 }
 
 .insta{
- margin-top: 5px;
+ margin-top: 7px;
  /* background:red; */
  text-align: center;
  height: 30px;
  width: 50px;
  min-width: 50px;
  filter: invert();
- background-color: black!important;
+ color: black !important;
 }
 .youtube{
  margin-top: 5px;
@@ -153,7 +154,7 @@ img.logo{
  width: 40px;
  min-width: 30px;
  filter: invert();
- background-color: black!important;
+ color: black !important;
 }
 .tate{
   /* position: absolute; */
@@ -242,8 +243,6 @@ footer{
 /*-----  SP  ---- */
 @media screen and (max-width: 760px) {
   /* 768pxまでの幅の場合に適応される */
-
-
   header{
     display: flex!important;;
     position:fixed;
@@ -335,9 +334,7 @@ footer{
     display: none;
   }
   footer{
-  
     background: rgb(236, 236, 236);
- 
    }
 
 }
