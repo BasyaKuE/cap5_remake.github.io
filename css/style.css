@@ -303,7 +303,7 @@ footer{
   background: #FFF; 
   z-index: 9999999999;
   /* background: url(./sapmle.png) no-repeat center center/cover; */
-  transform: rotate(90deg ); 
+  /* transform: rotate(90deg ); */
 }
    
   body{
