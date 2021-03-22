@@ -41,6 +41,7 @@ body {
   /* 表示するコンテナの大きさに基づいて、背景画像を調整 
   background-size: auto 100%;
   画像が表示される前の背景 */
+  background: black;
 
 } 
 
@@ -53,6 +54,7 @@ header{
    width: 100%; 
    height: 50px;
    padding: 5px;
+   background: black;
    /* background: transparent; */
    z-index: 2;
 
@@ -65,7 +67,12 @@ header{
    /* z-index: 2; */ 
    /* 重なりの順序 */
    /* box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.25); */
+   background-color: black!important;
  }
+
+div.bb {
+  background-color: black!important;
+}
  
 
 /* video.main{
@@ -85,10 +92,11 @@ video.main{
   /* background-size: cover; */
   margin-left: auto;
   margin-right: auto;
+  background-color: black;
 }
 video {
   min-width: 100%;
-  min-height: 100%;
+  min-height: 100vh;
   z-index: 1;
 }
 
@@ -136,6 +144,7 @@ img.logo{
  width: 50px;
  min-width: 50px;
  filter: invert();
+ color: black !important;
 }
 .youtube{
  margin-top: 5px;
@@ -145,6 +154,7 @@ img.logo{
  width: 40px;
  min-width: 30px;
  filter: invert();
+ color: black !important;
 }
 .tate{
   /* position: absolute; */
@@ -213,6 +223,7 @@ footer{
    width: 100%; 
    height: 50px;
    padding: 5px;
+   background: black;
    /* background: transparent; */
    z-index: 2;
  }
@@ -239,6 +250,7 @@ footer{
      left:0;
      width: 100%; 
      padding: 5px;
+     background:black;
      /* background: rgb(236, 236, 236); */
      height: auto;
      z-index: 2;
@@ -310,6 +322,7 @@ footer{
   body{
     min-width: initial;
     margin-top: 0;
+    background-color: black;
   }
 
   #all{
