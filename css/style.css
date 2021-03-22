@@ -69,7 +69,7 @@ header{
    /* box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.25); */
  }
 
-div {
+div.bb {
   background-color: black!important;
 }
  
@@ -138,22 +138,22 @@ img.logo{
 .insta{
  margin-top: 5px;
  /* background:red; */
- color:black;
  text-align: center;
  height: 30px;
  width: 50px;
  min-width: 50px;
  filter: invert();
+ background-color: black!important;
 }
 .youtube{
  margin-top: 5px;
  /* background:blue; */
- color:black;
  text-align: center;
  height: 30px;
  width: 40px;
  min-width: 30px;
  filter: invert();
+ background-color: black!important;
 }
 .tate{
   /* position: absolute; */
@@ -307,24 +307,17 @@ footer{
     display:none;
   }
 
-  img.logo{
-    position: absolute;
-    width: 20%;
-    top: 30%;
-    margin-right:40%;
-    margin-left:40%;
-    /* background-color: red; */
-    filter: invert();
-  }
-
  video.main{
   position: relative;
   width: 100%;
   height: 100%;
   /* background: url(./sapmle.png) no-repeat center center/cover; */
-  background-size: cover;
+  background-size: auto;
   transform: rotate(90deg ); 
-  
+  margin-left: 0%;
+  margin-right: 0%;
+  margin-top: 0%;
+  margin-bottom: 0%;
 }
    
   body{
