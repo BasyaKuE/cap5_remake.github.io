@@ -144,34 +144,29 @@ font-style: normal; */
  width: 30%;  
 }
 
-
-
 .photo{
   margin-top: 0;
   /* width: 800px; */
-  width:100%;
-  margin-left: auto; 
-  margin-right: auto; 
+  width:80%;
+  margin-left:10%; 
+  margin-right: 10%; 
   filter: grayscale(100%);
   transition-duration: 1s;
   /* opacity: 0.1; */
   /* margin-top: 40%; */
 }
-
 .photolast{
-  margin-left: 35%;
-  margin-right: 35%;
+  margin-left: 40%;
+  margin-right: 40%;
   margin-top: 10%;
-  margin-bottom:30% ;
-  width: 30%;
-
+  width: 20%;
 }
-
-/* .photo:hover{
-  filter: grayscale(0);
-  opacity: 1;
-
-} */
+.photolast2{
+  margin-left: 40%;
+  margin-right: 40%;
+  margin-bottom:10% ;
+  width: 20%;
+}
 
 
 /*-----  SP  ---- */
@@ -201,13 +196,7 @@ font-style: normal; */
      background: transparent;
      color:white;
    }
-   .cap5 {
-    font-size: 30px;
-    
-    /* margin-left:10%; */
-    /* background:red;   */
-    /* color:white!important; */
-  }
+
 
     
   .a{
@@ -247,7 +236,14 @@ font-style: normal; */
    }
    .text1{
    width: 80%;  
-
+  }
+  .text2{
+    width: 60%;
+    margin-left: 20%;
+    margin-left: 20%;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
   }
 
   .yt_logo {
