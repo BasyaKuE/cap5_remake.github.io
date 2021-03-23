@@ -140,7 +140,7 @@ header{
 }
 .text3{
   font-family: futura-pt,a-otf-midashi-go-mb31-pr6n, sans-serif;
-  font-weight: 600,300;
+  font-weight: 600;
   font-style: normal;
   margin-top: 0;
   margin-bottom: 0;
@@ -149,13 +149,13 @@ header{
   /* height: 60%; */
   /* background: rebeccapurple; */
   width: 60%;  
-  text-align: left;
+  /* text-align: center; */
 }
 
 
 .photo{
-  margin-right: 5%;
-  margin-left: 5%;
+  margin-right: 10%;
+  margin-left: 10%;
   margin-top: 40px;
   width: 80%;
 
@@ -232,8 +232,8 @@ header{
    }
 
    .photo{
-    margin-right: 5%;
-    margin-left: 5%;
+    margin-right: 10%;
+    margin-left: 10%;
     /* justify-content: center; */
     width: 80%;
   }
@@ -275,7 +275,7 @@ header{
   }
   .text3{
     font-family: futura-pt,a-otf-midashi-go-mb31-pr6n, sans-serif;
-    font-weight: 600,300;
+    font-weight: 600;
     font-style: normal;
     margin-top: 0;
     margin-bottom: 0;
@@ -284,7 +284,7 @@ header{
     /* height: 60%; */
     /* background: rebeccapurple; */
     width: 80%;  
-    text-align: left;
+    /* text-align: left; */
   }
   #all{
 
