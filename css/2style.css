@@ -113,7 +113,7 @@ header{
 
 .text1{
   font-family: futura-pt,a-otf-midashi-go-mb31-pr6n, sans-serif;
-  font-weight: 600;
+  font-weight: 600,300;
   font-style: normal;
 
   margin-top: 10%;
@@ -125,11 +125,38 @@ header{
   width: 60%;  
   text-align: center;
 }
+.text2{
+  font-family: futura-pt,a-otf-midashi-go-mb31-pr6n, sans-serif;
+  font-weight: 600,300;
+  font-style: normal;
+  margin-top:40px;
+  margin-bottom: 0;
+  margin-right:auto;
+  margin-left:auto; 
+  /* height: 60%; */
+  /* background: rebeccapurple; */
+  width: 60%;  
+  text-align: left;
+}
+.text3{
+  font-family: futura-pt,a-otf-midashi-go-mb31-pr6n, sans-serif;
+  font-weight: 600,300;
+  font-style: normal;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-right:auto;
+  margin-left:auto; 
+  /* height: 60%; */
+  /* background: rebeccapurple; */
+  width: 60%;  
+  text-align: left;
+}
+
 
 .photo{
   margin-right: 5%;
   margin-left: 5%;
-  margin-top: 10%;
+  margin-top: 40px;
   width: 80%;
 
 }
@@ -218,18 +245,46 @@ header{
     margin-top: 0;
   }
   
+
   .text1{
-
-
-    
-    margin-top: 100px;
+    font-family: futura-pt,a-otf-midashi-go-mb31-pr6n, sans-serif;
+    font-weight: 600,300;
+    font-style: normal;
+  
+    margin-top: 10%;
     margin-bottom: 0;
-    /* margin-right:auto;
-    margin-left:auto;  */
+    margin-right:auto;
+    margin-left:auto; 
     /* height: 60%; */
     /* background: rebeccapurple; */
     width: 80%;  
     text-align: center;
+  }
+  .text2{
+    font-family: futura-pt,a-otf-midashi-go-mb31-pr6n, sans-serif;
+    font-weight: 600,300;
+    font-style: normal;
+    margin-top:40px;
+    margin-bottom: 0;
+    margin-right:auto;
+    margin-left:auto; 
+    /* height: 60%; */
+    /* background: rebeccapurple; */
+    width: 80%;  
+    text-align: left;
+  }
+  .text3{
+    font-family: futura-pt,a-otf-midashi-go-mb31-pr6n, sans-serif;
+    font-weight: 600,300;
+    font-style: normal;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-right:auto;
+    margin-left:auto; 
+    /* height: 60%; */
+    /* background: rebeccapurple; */
+    width: 80%;  
+    text-align: left;
   }
   #all{
 
