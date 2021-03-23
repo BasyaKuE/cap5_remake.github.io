@@ -107,24 +107,41 @@ header{
 /* font-family:  sans-serif;
 font-weight: 300;
 font-style: normal; */
-
-
-
-  margin-top:100px;
- margin-bottom: 100px;
+ margin-top:100px;
+ /* margin-bottom: 100px; */
  margin-right:auto;
  margin-left:auto; 
  /* height: 60%; */
  /* background: rebeccapurple; */
  width: 60%;  
 }
-
 .text2{
+  font-family: futura-pt,a-otf-midashi-go-mb31-pr6n, sans-serif;
+  font-weight: 600;
+  font-style: normal;
+
+ /* margin-top:0px; */
+ margin-right:auto;
+ margin-left:auto; 
+ width: 60%;  
+}
+
+.text3{
   text-align: center;
   /* box-shadow: 0 10px 25px 0 rgba(0, 0, 0, .3); */
   padding-top: 10px;
   padding-bottom: 10px;
 }
+/* .text3{
+  display: inline;
+
+ margin-top:100px;
+ margin-bottom: 100px;
+ margin-right:auto;
+ margin-left:auto; 
+
+} */
+
 
 .yt_logo {
   width: 10%;
@@ -149,10 +166,10 @@ font-style: normal; */
 .photo{
   margin-top: 0;
   /* width: 800px; */
-  width:80%;
-  margin-left:10%; 
-  margin-right: 10%; 
-  filter: grayscale(100%);
+  width:90%;
+  margin-left:5%; 
+  margin-right: 5%; 
+  /* filter: grayscale(100%); */
   transition-duration: 1s;
   /* opacity: 0.1; */
   /* margin-top: 40%; */
