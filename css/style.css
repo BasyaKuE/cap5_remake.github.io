@@ -115,7 +115,7 @@ img.logo{
   /* text-align: center; */
   background:transparent;  
   color: rgb(55, 121, 180);
-
+  text-decoration: none;
   min-width: 100px;
   /* filter: invert(); */
 }
