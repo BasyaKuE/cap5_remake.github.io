@@ -267,6 +267,7 @@ font-style: normal; */
    }
    .text1{
    width: 80%;  
+   margin-top: 100px;
   }
   .text2{
 
@@ -279,13 +280,13 @@ font-style: normal; */
    
 
   .yt_logo {
-    width: 15%;
-    height: 15%;
+    width: 30%;
+    height: 30%;
   }
   
   .ig_logo {
-    width: 5%;
-    height: 5%;
+    width: 10%;
+    height: 10%;
   }
 
 

@@ -37,7 +37,9 @@ background-size: auto 100%;
 画像が表示される前の背景
 background-color: black;
  */
-
+ cursor:-moz-grab;
+ cursor:-webkit-grab;
+ cursor: grab;
 } 
 
 header{
