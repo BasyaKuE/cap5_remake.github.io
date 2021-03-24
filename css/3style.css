@@ -57,9 +57,11 @@ header{
    /* text-align: center; */
    /* background:transparent;   */
    min-width: 100px;
-  }
+}
 
-
+.cap5:hover {
+  text-decoration: none;
+}
 
 .items{
   min-width: 300px;

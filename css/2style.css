@@ -73,6 +73,10 @@ header{
   text-decoration: none;
 }
 
+.cap5:hover {
+  text-decoration: none;
+}
+
 .menu-item {
   list-style: none;
   background: transparent;

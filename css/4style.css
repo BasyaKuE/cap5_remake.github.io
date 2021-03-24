@@ -48,10 +48,6 @@ header{
  
 .cap5 {
    /* top:0; */
- 
-
-
-
    font-size: 30px;
    margin-right:20%;
    margin-left:10%;
@@ -60,9 +56,11 @@ header{
    /* text-align: center; */
    /* background:transparent;   */
    min-width: 100px;
-  }
+}
 
-
+.cap5:hover {
+  text-decoration: none;
+}
 
 .items{
   min-width: 300px;

@@ -120,6 +120,10 @@ img.logo{
   /* filter: invert(); */
 }
 
+.cap5:hover {
+  text-decoration: none;
+}
+
 .menu-item {
   list-style: none;
   background: transparent;
