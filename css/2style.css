@@ -60,6 +60,10 @@ header{
   /* background:rgb(237, 59, 10,10); */
 }
 
+a:hover {
+  text-decoration: none!important;
+}
+
 .cap5 {
   /* top:0; */
   font-size: 30px;

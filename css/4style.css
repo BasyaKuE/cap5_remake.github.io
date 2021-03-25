@@ -42,7 +42,9 @@ header{
 }
  
  
- 
+a:hover {
+  text-decoration: none!important;
+}
  
  
 .cap5 {
