@@ -51,6 +51,14 @@ header{
   width: 100%; 
   height: 50px;
   padding: 5px;
+  /* border-radius: 30px; */
+  /* border-radius: 0,0,30px,30px; */
+  /* 左上 | 右上 | 右下 | 左下 */
+
+  border-bottom-right-radius: 30px;
+  border-bottom-left-radius:  30px;
+
+
 
   /* background: transparent; */
   z-index: 2;
@@ -189,6 +197,7 @@ header{
   /* box-shadow: inset 0 10px 25px 0 rgba(255, 255, 255, .5); */
   /* opacity: 0.1; */
   /* margin-top: 40%; */
+
 }
 .photo0{
   margin-top: 60%;
@@ -389,4 +398,9 @@ footer{
     width: 50%;
     margin-left: 25%;
   }
+}
+@keyframes name {
+  0% { background: red; }
+  50% { background: orange; }
+  100% { background: pink; }
 }
