@@ -84,6 +84,7 @@ header a {
   width: 50%;
   margin-right: 15%;
   margin-left: 45%;
+  margin-top: 5%;
 }
 
 /* .rane2{
@@ -116,7 +117,7 @@ header a {
   .rane1{
     /* background: red; */
     width: 80%;
-    margin-top:10%;
+    margin-top:15%;
     margin-right: 10%;
     margin-left: 10%!important;
     margin-bottom:30%;
