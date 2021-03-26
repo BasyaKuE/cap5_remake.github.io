@@ -56,9 +56,9 @@ header{
     box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.25);
    /* background: transparent; */
    z-index: 2;
-  
-   /* background: white;
-   opacity: 0.8; */
+
+   background:black;
+   /* opacity: 0.8; */
 
   /* justify-content: center; */
    /* align-items: center; */
@@ -85,7 +85,7 @@ header{
 video.main{
   position: absolute;
   width: 100%;
-background: black;
+
   /* width: 100vh; */
   /* height: 100vh; */
   /* background: url(./sapmle.png) no-repeat center center/cover; */
@@ -290,6 +290,7 @@ footer{
    .cap5 {
     font-size: 30px;
     margin-right: 0;
+    color:white;
   }
   .items{
     min-width: 100px;
@@ -328,6 +329,7 @@ footer{
   margin-right: 0%;
   margin-top: 0%;
   margin-bottom: 0%;
+  background: black;
 }
    
   body{
