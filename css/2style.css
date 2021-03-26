@@ -154,7 +154,20 @@ a:hover {
   width: 60%;  
   /* text-align: center; */
 }
-
+.text４{
+  font-family: futura-pt,a-otf-midashi-go-mb31-pr6n, sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  margin-top: 8%;
+  margin-bottom: 0;
+  margin-right:auto;
+  margin-left:auto; 
+  /* height: 60%; */
+  /* background: rebeccapurple; */
+  width: 60%;  
+  text-align: center;
+  /* border: 2px solid black; */
+}
 
 .photo{
   margin-right: 10%;
@@ -288,6 +301,20 @@ a:hover {
     /* background: rebeccapurple; */
     width: 80%;  
     /* text-align: left; */
+  }
+  .text４{
+    font-family: futura-pt,a-otf-midashi-go-mb31-pr6n, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    margin-top: 5%;
+    margin-bottom: 0;
+    margin-right:auto;
+    margin-left:auto; 
+    /* height: 60%; */
+    /* background: rebeccapurple; */
+    width: 60%;  
+    text-align: center;
+    /* border: 2px solid black; */
   }
   #all{
 
