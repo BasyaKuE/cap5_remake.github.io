@@ -134,6 +134,20 @@ a:hover {
 /* h2.text1{
   text-align: center;
 } */
+.text3{
+  font-family: futura-pt,a-otf-midashi-go-mb31-pr6n, sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  margin-top:10%;
+ margin-bottom: 10px;
+ margin-right:auto;
+ margin-left:auto; 
+ text-decoration: none;
+ color: black;
+ /* height: 60%; */
+ /* background: rebeccapurple; */
+ width: 60%;  
+}
 
 .background{
   margin-top: 0;
