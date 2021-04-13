@@ -13,10 +13,11 @@ body {
   
   /* height: 100%; */
   /* width:100%; */
-  overflow-x: hidden;
-  overflow-y :scroll;
-  /* overflow-x: scroll; */
+  
+  overflow-y: hidden;
+  overflow-x :hidden; 
 
+  /* overflow-x: scroll; */
   /* width: 100%; */
 
   /* min-height: 600px;
@@ -53,7 +54,7 @@ header{
    height: 50px;
    padding: 5px;
     box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.25);
-    /* background:black; */
+    background:black;
    /* background: transparent; */
    z-index: 2;
 
@@ -70,7 +71,9 @@ header{
    /* box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.25); */
  }
  
-
+ a:hover {
+  text-decoration: none!important;
+}
 
 /* video.main{
   width: 100%;
@@ -79,26 +82,37 @@ header{
   background-size:cover ;
 } */
 
-.main{
-  position: relative;
+video.main{
+  position: absolute;
   width: 100%;
-  /* margin-left: 15%; */
-  /* margin-right: 15%; */
-  /* margin-top: 30%; */
-  /* margin-bottom:20% ; */
-  z-index: -1;
+
+  /* width: 100vh; */
+  /* height: 100vh; */
+  /* background: url(./sapmle.png) no-repeat center center/cover; */
+  /* background-size: cover; */
+  margin-left: auto;
+  margin-right: auto;
+         
+
 }
-/* main {
+video {
   min-width: 100%;
   min-height: 100%;
   z-index: 1;
   background:black;
-} */
+}
 
+img.logo{
+  position: absolute;
+  width: 20%;
+  top: 30%;
+  margin-right:40%;
+  margin-left:40%;
+  /* filter: invert(); */
+}
 
 .cap5 {
   /* top:0; */
-  font-family: futura-pt,a-otf-midashi-go-mb31-pr6n, sans-serif;
   font-size: 30px;
   margin-right:20%;
   margin-left:10%;
@@ -107,37 +121,23 @@ header{
   /* text-align: center; */
   background:transparent;  
   /* color: rgb(55, 121, 180); */
-  color:white;
+  /* color:white; */
   text-decoration: none;
   min-width: 100px;
   /* filter: invert(); */
 }
 
 
-.items{
-  min-width: 300px;
-
-}
 .menu-item {
- list-style: none;
- /* background: red; */
- margin-right: 20px;
- margin-top: 10px;
- display: inline;
-  /* filter: invert(); */
-  /* color: white!important; */
- 
+  list-style: none;
+  background: transparent;
+  margin-right: 20px;
+  display: inline;
 }
-a:hover {
-  text-decoration: none!important;
-  
-}
-.items li a{
+
+/* a:link {
   color: #FFF!important;
-}
-
-
-
+ } */
 /* li:before {
   content: "• ";
   color: white;
@@ -149,6 +149,11 @@ li{
 */
 
 
+
+
+.items{
+  min-width: 300px;
+}
 
 .insta{
  margin-top: 7px;
@@ -166,9 +171,26 @@ li{
  height: 30px;
  width: 40px;
  min-width: 30px;
- /* filter: invert(); */
+ filter: invert();
 }
-
+.tate{
+  /* position: absolute; */
+  position:  absolute;
+  top: 50px;  
+  right:40px;
+  font-size:70px;
+  transition-property:all;
+  transition-duration: 2s; 
+  transition-timing-function :ease-out;
+  /* margin-right: auto;
+  margin-left: auto; */
+  opacity: 0.8;
+  color: rgb(75, 171, 255);
+  writing-mode: vertical-lr;
+  text-orientation: mixed;
+  z-index: 1;
+  font-weight: 100;
+}
 
 /* .Cap:hover{
   position:  absolute;     
@@ -182,6 +204,7 @@ li{
   /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
   /* font-weight: 100; 
 } */
+
 
 .red{
   margin-top: 10px;
@@ -220,273 +243,18 @@ footer{
    /* background: transparent; */
    z-index: 2;
  }
-
-/*========= フォント ====================================================================*/
- .text1{
-  font-family: futura-pt,a-otf-midashi-go-mb31-pr6n, sans-serif;
-  font-weight: 600;
-  font-style: normal;
-  margin-top: 8%;
-  margin-bottom: 0;
-  margin-right:auto;
-  margin-left:auto; 
-  /* height: 60%; */
-  /* background: rebeccapurple; */
-  width: 60%;  
-  text-align: center;
-  /* border: 2px solid black; */
+.nav2{
+  padding: 10px;
+  margin-left:auto;
 }
-.text2{
-  font-family: futura-pt,a-otf-midashi-go-mb31-pr6n, sans-serif;
-  font-weight: 600,300;
-  font-style: normal;
-  margin-top:40px;
-  margin-bottom: 0;
-  margin-right:auto;
-  margin-left:auto; 
-  /* height: 60%; */
-  /* background: rebeccapurple; */
-  width: 60%;  
-  text-align: left;
+.menu-item2 {
+  list-style: none;
+  /* background: black; */
+  display: inline;
+  width: 100%;
+  /* background: blue; */
+  
 }
-.text3{
-  font-family: futura-pt,a-otf-midashi-go-mb31-pr6n, sans-serif;
-  font-weight: 600;
-  font-style: normal;
-  margin-top: 0;
-  margin-bottom: 0;
-  margin-right:auto;
-  margin-left:auto; 
-  /* height: 60%; */
-  /* background: rebeccapurple; */
-  width: 60%;  
-  /* text-align: center; */
-}
-.text４{
-  font-family: futura-pt,a-otf-midashi-go-mb31-pr6n, sans-serif;
-  font-weight: 600;
-  font-style: normal;
-  margin-top: 8%;
-  margin-bottom: 0;
-  margin-right:auto;
-  margin-left:auto; 
-  /* height: 60%; */
-  /* background: rebeccapurple; */
-  width: 60%;  
-  text-align: center;
-  /* border: 2px solid black; */
-}
-
-/*========= したせん ====================================================================*/
-.items li a{
-  /*線の基点とするためrelativeを指定*/
-position: relative;
-}
-.items li.current a,
-.items li a:hover{
-  /* color:#0481A2; */
-  color:white;
-
-
-}
-
-.items li a::after {
-    content: '';
-    /*絶対配置で線の位置を決める*/
-   
-    position: absolute;
-    bottom: 0;
-    left: 10%;
-    /*線の形状*/
-    width: 80%;
-    height: 10px;
-    top: 15px;
-    background:#FFF;
-    /*アニメーションの指定*/
-    transition: all .3s;
-    transform: scale(0, 1);/*X方向0、Y方向1*/
-    transform-origin: center top;/*上部中央基点*/
-}
-
-/*現在地とhoverの設定*/
-.items li.current a::after,
-.items li a:hover::after {
-    transform: scale(1.5, 1);/*X方向にスケール拡大*/
-}
-/*========= したせん ====================================================================*/
-
-
-/*==================================================スライダーのためのcss===================================*/
-.slider {
-  position:relative;
-	z-index: 1;
-	/*↑z-indexの値をh1のz-indexの値よりも小さくして背景に回す*/
-	height: 100vh;/*スライダー全体の縦幅を画面の高さいっぱい（100vh）にする*/
-  padding: 0%;
-}
-/*　背景画像設定　*/
-
-.slider-item01 {
-    background:url(../img/img_01.jpg);
-}
-
-.slider-item02 {
-    background:url(../img/img_02.jpg);
-}
-
-.slider-item03 {
-    background:url(../img/img_03.jpg);
-}
-
-.slider-item {
-    width: 100%;/*各スライダー全体の横幅を画面の高さいっぱい（100%）にする*/
-    height:100vh;/*各スライダー全体の縦幅を画面の高さいっぱい（100vh）にする*/
-    background-repeat: no-repeat;/*背景画像をリピートしない*/
-    background-position: center;/*背景画像の位置を中央に*/
-    background-size: cover;/*背景画像が.slider-item全体を覆い表示*/
-}
-
-/*矢印の設定*/
-
-.slick-prev, 
-.slick-next {
-    position: absolute;
-	z-index: 3;
-    top: 42%;
-    cursor: pointer;/*マウスカーソルを指マークに*/
-    outline: none;/*クリックをしたら出てくる枠線を消す*/
-    border-top: 2px solid #fff;/*矢印の色*/
-    border-right: 2px solid #fff;/*矢印の色*/
-    height: 25px;
-    width: 25px;
-}
-
-.slick-prev {/*戻る矢印の位置と形状*/
-    left:2.5%;
-    transform: rotate(-135deg);
-}
-
-.slick-next {/*次へ矢印の位置と形状*/
-    right:2.5%;
-    transform: rotate(45deg);
-}
-
-/*ドットナビゲーションの設定*/
-
-.slick-dots {
-	position: relative;
-	z-index: 3;
-    text-align:center;
-	margin:-50px 0 0 0;/*ドットの位置*/
-}
-
-.slick-dots li {
-    display:inline-block;
-	margin:0 5px;
-}
-
-.slick-dots button {
-    color: transparent;
-    outline: none;
-    width:8px;/*ドットボタンのサイズ*/
-    height:8px;/*ドットボタンのサイズ*/
-    display:block;
-    border-radius:50%;
-    background:#fff;/*ドットボタンの色*/
-}
-
-.slick-dots .slick-active button{
-    background:#333;/*ドットボタンの現在地表示の色*/
-}
-
-
-
-
-
-/*=== 9-1-4 矢印が動いてスクロールを促す ====================================================================*/
-
-/*スクロールダウン全体の場所*/
-.scrolldown4{
-  /*描画位置※位置は適宜調整してください*/
-position:absolute;
-bottom:1%;
-right:50%;
-  /*矢印の動き1秒かけて永遠にループ*/
-animation: arrowmove 1s ease-in-out infinite;
-z-index: 2;
-}
-
-/*下からの距離が変化して全体が下→上→下に動く*/
-@keyframes arrowmove{
-    0%{bottom:1%;}
-    50%{bottom:3%;}
-   100%{bottom:1%;}
-}
-
-/*Scrollテキストの描写*/
-.scrolldown4 span{
-  /*描画位置*/
-position: absolute;
-left:-20px;
-bottom:10px;
-  /*テキストの形状*/
-color: #eee;
-font-size: 1.0rem;
-letter-spacing: 0.1em;
-/*縦書き設定*/
--ms-writing-mode: tb-rl;
-  -webkit-writing-mode: vertical-rl;
-  writing-mode: vertical-rl;
-}
-
-/* 矢印の描写 */
-.scrolldown4:before {
-  content: "";
-  /*描画位置*/
-  position: absolute;
-  bottom: 0;
-  right: -6px;
-  /*矢印の形状*/
-  width: 1px;
-  height: 20px;
-  background: #eee;
-  transform: skewX(-31deg);
-}
-
-.scrolldown4:after{
-content:"";
-  /*描画位置*/
-position: absolute;
-bottom:0;
-right:0;
-  /*矢印の形状*/
-width:1px;
-height: 50px;
-background:#eee;
-}
-/* ==================================================================== */
-
-
-
-/*========= ローディング画面のためのCSS ===============*/
-#splash {
-	position: fixed;
-	width: 100%;
-	height: 100%;
-	background: #333;
-	z-index: 9999999;
-	text-align:center;
-	color:#fff;
-}
-
-#splash-logo {
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-}
-
-
 
 /*-----  SP  ---- */
 @media screen and (max-width: 760px) {
@@ -504,7 +272,7 @@ background:#eee;
      padding-bottom:0 !important;
      opacity: 0.9;
        
-   /* background:black; */
+   background:black;
     /* justify-content: center; */
      /* align-items: center; */
      /* ?????? */
@@ -524,11 +292,11 @@ background:#eee;
      /* background: transparent; */
      color:white;
    }
-   /* .cap5 {
+   .cap5 {
     font-size: 30px;
     margin-right: 0;
     color:white;
-  } */
+  }
   .items{
     min-width: 100px;
  }
@@ -556,17 +324,17 @@ background:#eee;
     display:none;
   }
 
- .main{
-  width: 70%;
-  /* height: 100%; */
+ video.main{
+  width: 100%;
+  height: 100%;
   /* background: url(./sapmle.png) no-repeat center center/cover; */
   background-size: auto;
   /* transform: rotate(90deg ); */
-  margin-left: 15%;
-  margin-right: 15%;
-  margin-top: 40%;
+  margin-left: 0%;
+  margin-right: 0%;
+  margin-top: 0%;
   margin-bottom: 0%;
-  /* background: black; */
+  background: black;
 }
    
   body{
@@ -575,9 +343,8 @@ background:#eee;
   }
 
   #all{
-    /* margin-top: 10px; */
+    margin-top: 10px;
     display: block;
-  
   }
 
   .tate{
@@ -588,11 +355,3 @@ background:#eee;
    }
 
 }
-
-/* color:#0481A2; */
-
-
-
-
-
-
