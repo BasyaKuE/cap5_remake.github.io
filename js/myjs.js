@@ -1,115 +1,22 @@
-//ここにJavaScriptのコードを書く
-window.gloVar = 50;
-window.rewriteCounter=0;
-
-//canvasを格納する変数の定義
-var canvas;
-
-
-function setup(){
-//size(640, 480);に相当する
-canvas = createCanvas(1000, 800);
-//ただしこの命令でhtml上にcanvasタグが挿入される．
-canvas.parent("P5Canvas");
-
-colorMode(RGB,255,255,255,255);
-myImage=loadImage(".jpg")
-}
-
-function draw(){
-if(mouseIsPressed){
-    // fill(255,255,255);
-    // fill(0);
-    // fill(255);
-
-
-    noStroke();
-    noFill();
-//    stroke(255,235,205);
-//     fill(255,235,205); 
-}
-// else if ((keyPressed == true) && ((key == 'a') ||  (key == 'A'))){
-//     fill(255);
-//     stroke(0);
-//   }
-else{
-
-// fill(255);
-
-
-
-// fill(255,235,205);
-stroke(255,235,205);
-// stroke(0);
-fill(0);
-
-
-
-}
-ellipse(mouseX, mouseY, 70, 70);
-}
-
-
-
-
-
-image(myImage,0,0);
-
-function mousePressed(){
-    if(mouseX> 320){
-        // location.href="https://www.google.com/?client=safari";
-        document.getElementById("dandan").innerHTML="<P>右</p>";
+$('.slider').slick({
+    fade:true,//切り替えをフェードで行う。初期値はfalse。
+    autoplay: true,//自動的に動き出すか。初期値はfalse。
+    autoplaySpeed: 3000,//次のスライドに切り替わる待ち時間
+    speed:1000,//スライドの動きのスピード。初期値は300。
+    infinite: true,//スライドをループさせるかどうか。初期値はtrue。
+    slidesToShow: 1,//スライドを画面に3枚見せる
+    slidesToScroll: 1,//1回のスクロールで3枚の写真を移動して見せる
+    arrows: true,//左右の矢印あり
+    prevArrow: '<div class="slick-prev"></div>',//矢印部分PreviewのHTMLを変更
+    nextArrow: '<div class="slick-next"></div>',//矢印部分NextのHTMLを変更
     
-    
-    }
-    else{
-        // location.href="https://www.google.com/?client=safari";
-        document.getElementById("dandan").innerHTML="<P>左</P>";
-    }
-}
+    // dots: true,//下部ドットナビゲーションの表示
+    pauseOnFocus: false,//フォーカスで一時停止を無効
+    pauseOnHover: false,//マウスホバーで一時停止を無効
+    pauseOnDotsHover: false,//ドットナビゲーションをマウスホバーで一時停止を無効
+});
 
-
-function reWriteDiv(){
-    if(window.rewriteCounter==0){
-    document.getElementById("dandan").innerHTML = "<p><strong>１回目書き換わりました!</strong></p>";
-    window.rewriteCounter++;
-}
-else if(window.rewriteCounter==1){
-    document.getElementById("dandan").innerHTML = "<p><strong>２回目書き換わりました!</strong></p>";
-    window.rewriteCounter++;
-}
-
-else if(window.rewriteCounter==2){
-    document.getElementById("dandan").innerHTML = "<p><strong>3回目書き換わりました!</strong></p>";
-    window.rewriteCounter=0;
-}
-}
-
-function onButtonClick(){
-alert("こんにちは");
-
-
-
-let returnValue = myFunc();
-alert(returnValue);
-alert(window.gloVar);
-window.gloVar=40;
-alert(window.gloVar);
-
-let st1="これが１つ目"
-let st2="これが２つ目"
-alert(st1+st2);
-let st3=`グローバル変数は${window.gloVar}です`;
-alert(st3);
-}
-
-function onButtonClick2(){
-alert("こんばんは");
-}
-
-function myFunc(){
-    let myVariable1 = 10;
-    let myVariable2 = 20;
-
-    return myVariable1 + myVariable2;
-}
+//スマホ用：スライダーをタッチしても止めずにスライドをさせたい場合
+$('.slider').on('touchmove', function(event, slick, currentSlide, nextSlide){
+$('.slider').slick('slickPlay');
+});
